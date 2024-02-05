@@ -1,0 +1,190 @@
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ #Header Media-query . ^^^^^^^^^^^^^^^^^^^^ */
+@media(max-width:1320px){
+  header{
+    padding: 20px 50px;
+  }
+}
+@media(max-width:1100px){
+  header{
+    padding: 15px 30px;
+  }
+  .site-name .brand{
+    font-size: 23px;
+  }
+  .search-box #search-input{
+    width: 200px;
+  }
+}
+@media(max-width:900px){
+  #user-info #user ,#user-info .profile-image , #user-info .log-out {
+    display: none;
+  }
+}
+@media(max-width:768px){
+  header{
+    padding: 5px 15px;
+  }
+  .site-name .brand{
+    font-size: 18px;
+    margin-left: -50px;
+  }
+}
+@media(max-width:568px){
+  header{
+    padding: 15px 1px;
+  }
+  .site-name .brand{
+    font-size: 14px;
+    margin-left: -26px;
+  }
+  .search-box #search-input{
+    width: 130px;
+    margin-left: 5px;
+  }
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ #cart&favorite  Products box Media query . ^^^^^^^^ */
+@media(max-width:1100px){
+  .carts-products, .fav-products{
+    height: 500px;
+    margin-left: 90px;
+    border-radius: 10px;
+  } 
+} 
+@media(max-width:900px){
+  .carts-products , .fav-products{
+    height: 800px;
+    margin-left: 60px;
+    border-radius: 10px;
+  }
+  .carts-products h5 , .fav-products h5{
+    font-size: 17px;
+  }
+  .carts-products #product-col img , .fav-products #product-col img{
+    height: 82px;
+    width: 82px;
+    border-radius: 50%;
+  }
+  .carts-products span , .fav-products span{
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 30px;
+  }
+}
+@media(max-width:768px){
+  .carts-products , .fav-products{
+    height: 500px;
+    margin-left: -40px;
+    margin-right: 2px;
+    border-radius: 10px;
+  }
+  
+}
+@media(max-width:568px){
+  .carts-products , .fav-products{
+    height: 350px;
+    margin-left: -150px;
+    margin-right: 2px;
+    border-radius: 10px;
+  }
+  
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^ #Form Media query . ^^^^^^^^ */
+@media(max-width:1320px){
+  .section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25%;
+    height: 400px;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #9f9f9f;
+    /* background-image: url(../images/login\ background.jpg); */
+    padding: 15px;
+    border: 1px solid #c1bfbf;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  }
+}
+
+@media(max-width:1100px){
+  .section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 500px;
+    text-align: center;
+    background-color: #9f9f9f;
+    /* background-image: url(../images/login\ background.jpg); */
+    padding: 15px;
+    border: 1px solid #c1bfbf;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  }
+}
+@media(max-width:768px){
+  .section-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 480px;
+    margin-top: 35px;
+    text-align: center;
+    background-color: #9f9f9f;
+    /* background-image: url(../images/login\ background.jpg); */
+    padding: 15px;
+    border: 1px solid #c1bfbf;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
+  }
+}
+/* ============ #Card Media-query . ====================== */
+@media(max-width:1100px){
+  .product-item2{
+    width: 350px;
+    height: 190px;
+    margin: 40px 20px ;
+  }
+}
+@media(max-width:900px){
+  .product-item2{
+    width: 300px;
+    height: 190px;
+    margin: 40px 5px ;
+  }
+}
+@media(max-width:769px){
+  .product-item2{
+    width: 250px;
+    height: 130px;
+    margin: 40px 20px ;
+  }
+  .product-item2:hover .product-img{
+    width: 200px;
+    height: 200px;
+  }
+  .product-content .product-desc .product-data{
+    margin: 20px 4px;
+  }
+  .product-content .product-desc .product-data h3{
+    margin-left: 10px;
+  }
+}
+/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^ #Footer Media query . ^^^^^^^^^^^^^^^^^^^^^^^^*/
+@media(max-width:769px){
+  .footer-sec{
+    width: 50%;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+}
+@media(max-width:556px){
+  .footer-sec{
+    width: 100%;
+  }
+}
